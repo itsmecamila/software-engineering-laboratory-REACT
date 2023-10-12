@@ -14,8 +14,8 @@ function Relogio() {
   }, []);
 
   return (
-    <div className="relogio-container">
-      <h1 className="relogio-hora">{hora}</h1>
+    <div>
+      <h1>{hora}</h1>
     </div>
   );
 }

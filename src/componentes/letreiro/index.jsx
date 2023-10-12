@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function LetreiroPiscante({ frase }) {
+function Letreiro({ frase }) {
   const [contador, setContador] = useState(0);
 
   useEffect(() => {
@@ -18,10 +18,10 @@ function LetreiroPiscante({ frase }) {
   }, [contador, frase]);
 
   return (
-    <div className="letra-piscante">
+    <div>
       {frase.substring(0, contador)}
     </div>
   );
 }
 
-export default LetreiroPiscante;
+export default Letreiro;
