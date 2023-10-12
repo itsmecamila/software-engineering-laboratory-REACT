@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './styles.css';
 
 function LetreiroPiscante({ frase }) {
   const [contador, setContador] = useState(0);
